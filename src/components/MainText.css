@@ -1,0 +1,152 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.text {
+  padding: 10px;
+  word-wrap: break-word;
+  margin-top: 135px;
+
+}
+
+.middle-part {
+  padding: -12px;
+}
+
+.fname {
+  font-size: 51px;
+  color: #ffffff;
+  position: relative;
+  left: 3px;
+  top: 50px;
+  font-weight: 600;
+  letter-spacing: 0em;
+
+  letter-spacing: 0em;
+  text-align: left;
+  line-height: 42.4px;
+}
+
+.lname {
+  font-size: 51px;
+  color: #ffffff;
+  position: relative;
+  letter-spacing: 0em;
+  left: 3px;
+  top: 55px;
+  font-weight: 600;
+  line-height: 62px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.about {
+  font-weight: 200;
+  font-size: 14px;
+  position: relative;
+  left: 3px;
+  top: 75px;
+  text-align: left;
+  margin-top: 15px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 0.75);
+  word-break: break-word;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.about .bold {
+  color: #fff;
+  font-weight: bold;
+}
+
+.download-icon {
+  display: flex;
+  margin-top: 95px;
+  font-size: 40px;
+  padding-top: 30px;
+}
+
+.download {
+  height: 50.81px;
+  width: 51.19px;
+  color: #ffffff;
+}
+
+.cv {
+  color: #fff;
+  font-size: 14px;
+  line-height: 17px;
+  padding-bottom: 30px;
+  padding-top: 11px;
+
+}
+
+.download:hover,
+.cv:hover {
+  color: #aae800;
+}
+
+a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.lower-part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 14px;
+}
+
+@media only screen and (max-width: 1022px) {
+
+  .middle-part {
+    padding: 10px;
+    margin-left: 9%;
+    margin-right: 9%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .text {
+    margin-top: 12px;
+  }
+
+  .fname,
+  .lname,
+  .about {
+    text-align: center;
+
+  }
+
+  .fname,
+  .lname {
+    font-size: 36px;
+    text-align: left;
+  }
+
+  .about {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  @media only screen and (max-width: 800px) {
+
+    .fname,
+    .lname,
+    .about {
+      top: 0;
+    }
+
+    .text {
+      margin-top: 20px;
+    }
+  }
+}

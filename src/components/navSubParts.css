@@ -1,0 +1,49 @@
+.drawer-link {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+}
+.workPlusicon{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.drawer-link .nav-link {
+    font-weight: 700;
+   
+}
+
+.drawer-link img.icon {
+    color:black;
+    justify-content: flex-end;
+    padding-right: 70px;
+    
+    
+}
+.drop{
+   right: 1px;
+}
+
+
+.drawer-link a {
+    margin-bottom: 5px; 
+    text-decoration: none; 
+    color: black;
+}
+.subParts{
+    align-items: left !important;
+    text-align: left;
+    padding-top: 10px;
+    line-height: 20px;
+    font-size: 18px;
+    
+}
+.subParts a{
+    text-align: left;
+}
+.drawer-link a:hover{
+    color:#AAE800 ;
+}
