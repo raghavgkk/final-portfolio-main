@@ -27,7 +27,7 @@
     }
 
     .arrowIcon {
-        margin-left: 9rem;
+        /* margin-left: 9rem; */
         margin: "auto";
         display: flex !important;
         justify-content: center !important;

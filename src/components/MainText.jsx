@@ -22,7 +22,7 @@ const MiddlePart = () => {
       </div>
       <span className="download-icon">
         <div className="lower-part">
-          <a href="https://drive.google.com/file/d/1c6i3TqlyNQqL-12y3V--PbhwQ0Xhw9x8/view?usp=sharing" target="blank" >
+          <a href="https://drive.google.com/file/d/1tBBgXEo9IKlGDuyPeY0qOfoMTx9reLiI/view?usp=sharing" target="blank" >
             <img className="download" src={DownloadIcon} alt="Download Icon" />
             <div className="cv">Download CV</div>
           </a>

@@ -6,7 +6,7 @@ import {
   Toolbar,
   Typography,
 } from "@mui/material";
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import logoRaghav from "../assets/images/logoRaghav.gif";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -29,10 +29,28 @@ import { Link } from "react-router-dom";
 import "./projextDesc.css";
 import InstagramIcon from "@mui/icons-material/Instagram";
 const Project5 = () => {
+
+  const topOfPageRef = useRef(null);
+
+  useEffect(() => {
+    // Scroll to top of the page when the component is mounted
+    window.scrollTo(0, 0);
+
+    // Automatically click on "Top of Page" link after a short delay (e.g., 500ms)
+    const timeoutId = setTimeout(() => {
+      if (topOfPageRef.current) {
+        topOfPageRef.current.click();
+      }
+    }, 500);
+
+    // Clean up the timeout on component unmount
+    return () => clearTimeout(timeoutId);
+  }, []);
+
+
   return (
     <div className="projectDescription">
       <div
-        id="top"
         className="grid"
         style={{
           width: "100%",
@@ -44,6 +62,7 @@ const Project5 = () => {
         {/* First column */}
         <div
           className="verticalBar"
+
           style={{
             "@media screen and (max-width: 768px)": { display: "none" },
           }}
@@ -58,14 +77,19 @@ const Project5 = () => {
         </div>
 
         {/* Second column */}
-        <div style={{ width: "100%" }}>
+        <div style={{ width: "100%" }} id="top">
           <Box
             sx={{
               flexGrow: 1,
               width: "100%",
               margin: "auto",
               display: "block",
-              "@media screen and (max-width: 768px)": { width: "100%" },
+              "@media screen and (max-width: 768px)": {
+                textAlign: "center", // Center align the icon on mobile screens
+              },
+              "@media screen and (min-width: 769px)": {
+                textAlign: "left", // Left align the icon on desktop screens
+              },
             }}
           >
             <Button LinkComponent={Link} to="/work">
@@ -75,10 +99,6 @@ const Project5 = () => {
                   color: "#0101F6",
                   paddingTop: "50px",
                   fontSize: { xs: "80px", sm: "30px" },
-                  display: { xs: "block", sm: "flex" },
-                  alignContent: "center",
-                  justifyContent: "center",
-                  alignItems: "center",
                 }}
               />
             </Button>
@@ -223,6 +243,7 @@ const Project5 = () => {
               fontSize={{ xs: "10px", sm: "12px", paddingTop: "10px" }}
             >
               <a
+                ref={topOfPageRef}
                 onMouseEnter={(e) => (e.target.style.color = "#AAE800")}
                 onMouseLeave={(e) => (e.target.style.color = "black")}
                 href="#top"

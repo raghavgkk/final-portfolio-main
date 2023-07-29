@@ -6,7 +6,7 @@ import {
   Toolbar,
   Typography,
 } from "@mui/material";
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import logoRaghav from "../assets/images/logoRaghav.gif";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -37,6 +37,24 @@ import LogoBar from "../header/LogoBar";
 import logo from "../assets/icons/Logo.png";
 
 const Project1 = () => {
+
+  const topOfPageRef = useRef(null);
+
+  useEffect(() => {
+    // Scroll to top of the page when the component is mounted
+    window.scrollTo(0, 0);
+
+    // Automatically click on "Top of Page" link after a short delay (e.g., 500ms)
+    const timeoutId = setTimeout(() => {
+      if (topOfPageRef.current) {
+        topOfPageRef.current.click();
+      }
+    }, 500);
+
+    // Clean up the timeout on component unmount
+    return () => clearTimeout(timeoutId);
+  }, []);
+
   return (
     <div className="projectDescription">
       {/* <LogoBar /> */}
@@ -72,11 +90,13 @@ const Project1 = () => {
             sx={{
               flexGrow: 1,
               width: "100%",
-              margin: "auto",
+              // margin: "auto",
               display: "block",
               "@media screen and (max-width: 768px)": {
-                width: "100%",
-                margin: "auto",
+                textAlign: "center", // Center align the icon on mobile screens
+              },
+              "@media screen and (min-width: 769px)": {
+                textAlign: "left", // Left align the icon on desktop screens
               },
             }}
           >
@@ -284,6 +304,7 @@ const Project1 = () => {
               fontSize={{ xs: "10px", sm: "12px", paddingTop: "10px" }}
             >
               <a
+                ref={topOfPageRef}
                 onMouseEnter={(e) => (e.target.style.color = "#AAE800")}
                 onMouseLeave={(e) => (e.target.style.color = "black")}
                 href="#top"
