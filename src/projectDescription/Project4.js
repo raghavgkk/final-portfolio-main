@@ -161,11 +161,6 @@ const Project4 = () => {
               src={img3}
             />
 
-            <img
-              alt="image1"
-              style={{ width: "100%", maxWidth: "950px", height: "auto" }}
-              src={img4}
-            />
 
             <img
               id="branding"
