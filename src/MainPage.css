@@ -29,6 +29,7 @@ html {
   font-size: 24px;
   font-weight: bold;
   animation: animName 3s linear infinite;
+  z-index: 1000;
 
 }
 
