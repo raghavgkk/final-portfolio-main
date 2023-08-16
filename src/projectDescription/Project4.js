@@ -145,19 +145,19 @@ const Project4 = () => {
           >
             <img
               alt="image1"
-              style={{ width: "100%", maxWidth: "950px", height: "auto" }}
+              style={{ width: "100%",  height: "auto" }}
               src={img1}
             />
 
             <img
               alt="image1"
-              style={{ width: "100%", maxWidth: "950px", height: "auto" }}
+              style={{ width: "100%",  height: "auto" }}
               src={img2}
             />
 
             <img
               alt="image1"
-              style={{ width: "100%", maxWidth: "950px", height: "auto" }}
+              style={{ width: "100%",  height: "auto" }}
               src={img3}
             />
 
@@ -165,19 +165,19 @@ const Project4 = () => {
             <img
               id="branding"
               alt="image1"
-              style={{ width: "100%", maxWidth: "950px", height: "auto" }}
+              style={{ width: "100%",  height: "auto" }}
               src={img5}
             />
 
             <img
               alt="image1"
-              style={{ width: "100%", maxWidth: "950px", height: "auto" }}
+              style={{ width: "100%",  height: "auto" }}
               src={img6}
             />
 
             <img
               alt="image1"
-              style={{ width: "100%", maxWidth: "950px", height: "auto" }}
+              style={{ width: "100%",  height: "auto" }}
               src={img7}
             />
           </Box>

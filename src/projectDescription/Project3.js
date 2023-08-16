@@ -150,88 +150,88 @@ const Project3 = () => {
           >
             <img
               alt="image1"
-              style={{ width: "100%", maxWidth: "950px", height: "auto" }}
+              style={{ width: "100%",  height: "auto" }}
               src={img1}
             />
 
             <img
               alt="image1"
-              style={{ width: "100%", maxWidth: "950px", height: "auto" }}
+              style={{ width: "100%",  height: "auto" }}
               src={img2}
             />
 
             <img
               id="logo"
               alt="image1"
-              style={{ width: "100%", maxWidth: "950px", height: "auto" }}
+              style={{ width: "100%",  height: "auto" }}
               src={img3}
             />
 
             <img
               alt="image1"
-              style={{ width: "100%", maxWidth: "950px", height: "auto" }}
+              style={{ width: "100%",  height: "auto" }}
               src={img4}
             />
 
             <img
               id="typography"
               alt="image1"
-              style={{ width: "100%", maxWidth: "950px", height: "auto" }}
+              style={{ width: "100%",  height: "auto" }}
               src={img5}
             />
 
             <img
               alt="image1"
-              style={{ width: "100%", maxWidth: "950px", height: "auto" }}
+              style={{ width: "100%",  height: "auto" }}
               src={img6}
             />
 
             <img
               alt="image1"
-              style={{ width: "100%", maxWidth: "950px", height: "auto" }}
+              style={{ width: "100%",  height: "auto" }}
               src={img7}
             />
 
             <img
               alt="image1"
-              style={{ width: "100%", maxWidth: "950px", height: "auto" }}
+              style={{ width: "100%",  height: "auto" }}
               src={img8}
             />
 
             <img
               alt="image1"
-              style={{ width: "100%", maxWidth: "950px", height: "auto" }}
+              style={{ width: "100%",  height: "auto" }}
               src={img9}
             />
 
             <img
               alt="image1"
-              style={{ width: "100%", maxWidth: "950px", height: "auto" }}
+              style={{ width: "100%",  height: "auto" }}
               src={img10}
             />
 
             <img
               id="mockup"
               alt="image1"
-              style={{ width: "100%", maxWidth: "950px", height: "auto" }}
+              style={{ width: "100%",  height: "auto" }}
               src={img11}
             />
 
             <img
               alt="image1"
-              style={{ width: "100%", maxWidth: "950px", height: "auto" }}
+              style={{ width: "100%",  height: "auto" }}
               src={img12}
             />
 
             <img
               alt="image1"
-              style={{ width: "100%", maxWidth: "950px", height: "auto" }}
+              style={{ width: "100%",  height: "auto" }}
               src={img13}
             />
 
             <img
               alt="image1"
-              style={{ width: "100%", maxWidth: "950px", height: "auto" }}
+              style={{ width: "100%",  height: "auto" }}
               src={img14}
             />
           </Box>

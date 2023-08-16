@@ -169,112 +169,112 @@ const Project1 = () => {
 
             <img
               alt="image1"
-              style={{ width: "100%", maxWidth: "950px", height: "auto" }}
+              style={{ width: "100%",  height: "auto" }}
               src={img2}
             />
 
             <img
               alt="image1"
-              style={{ width: "100%", maxWidth: "950px", height: "auto" }}
+              style={{ width: "100%",  height: "auto" }}
               src={img3}
             />
 
             <img
               alt="image1"
-              style={{ width: "100%", maxWidth: "950px", height: "auto" }}
+              style={{ width: "100%",  height: "auto" }}
               src={img4}
             />
 
             <img
               id="branding"
               alt="image1"
-              style={{ width: "100%", maxWidth: "950px", height: "auto" }}
+              style={{ width: "100%",  height: "auto" }}
               src={img5}
             />
 
             <img
               alt="image1"
-              style={{ width: "100%", maxWidth: "950px", height: "auto" }}
+              style={{ width: "100%",  height: "auto" }}
               src={img6}
             />
 
             <img
               alt="image1"
-              style={{ width: "100%", maxWidth: "950px", height: "auto" }}
+              style={{ width: "100%",  height: "auto" }}
               src={img7}
             />
 
             <img
               alt="image1"
-              style={{ width: "100%", maxWidth: "950px", height: "auto" }}
+              style={{ width: "100%",  height: "auto" }}
               src={img8}
             />
 
             <img
               alt="image1"
-              style={{ width: "100%", maxWidth: "950px", height: "auto" }}
+              style={{ width: "100%",  height: "auto" }}
               src={img9}
             />
 
             <img
               alt="image1"
-              style={{ width: "100%", maxWidth: "950px", height: "auto" }}
+              style={{ width: "100%",  height: "auto" }}
               src={img10}
             />
 
             <img
               id="mockup"
               alt="image1"
-              style={{ width: "100%", maxWidth: "950px", height: "100%" }}
+              style={{ width: "100%",  height: "100%" }}
               src={img11}
             />
 
             <img
               alt="image1"
-              style={{ width: "100%", maxWidth: "950px", height: "auto" }}
+              style={{ width: "100%",  height: "auto" }}
               src={img12}
             />
 
             <img
               alt="image1"
-              style={{ width: "100%", maxWidth: "950px", height: "auto" }}
+              style={{ width: "100%",  height: "auto" }}
               src={img13}
             />
 
             <img
               alt="image1"
-              style={{ width: "100%", maxWidth: "950px", height: "auto" }}
+              style={{ width: "100%",  height: "auto" }}
               src={img14}
             />
 
             <img
               alt="image1"
-              style={{ width: "100%", maxWidth: "950px", height: "auto" }}
+              style={{ width: "100%",  height: "auto" }}
               src={img15}
             />
 
             <img
               alt="image1"
-              style={{ width: "100%", maxWidth: "950px", height: "auto" }}
+              style={{ width: "100%",  height: "auto" }}
               src={img16}
             />
 
             <img
               alt="image1"
-              style={{ width: "100%", maxWidth: "950px", height: "auto" }}
+              style={{ width: "100%",  height: "auto" }}
               src={img17}
             />
 
             <img
               id="website"
               alt="image1"
-              style={{ width: "100%", maxWidth: "950px", height: "auto" }}
+              style={{ width: "100%",  height: "auto" }}
               src={img18}
             />
 
             <img
               alt="image1"
-              style={{ width: "100%", maxWidth: "950px", height: "auto" }}
+              style={{ width: "100%",  height: "auto" }}
               src={img19}
             />
           </Box>
