@@ -46,7 +46,7 @@ const ProjectPage = () => {
     {
       imageUrl: image3,
       title: "Paws&Wings",
-      description: "UX UI | Branding | System design",
+      description: "Logo | Branding | Visual design",
       routerLink: "/project/paws&wings",
     },
   ];
