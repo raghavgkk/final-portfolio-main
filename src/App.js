@@ -25,7 +25,7 @@ function App() {
         <Route path="/project/cura" element={<Project2/>}/>
         <Route path="/project/paws&wings" element={<Project3/>}/>
         <Route path="/project/looks" element={<Project4/>}/>
-        {/* <Route path="/project/raahi" element={<Project5/>}/> */}
+        <Route path="/project/raahi" element={<Project5/>}/>
         <Route path="/" element={<MainPage/>}/>
       </Routes>
     </section>

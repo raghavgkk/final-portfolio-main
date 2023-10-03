@@ -99,13 +99,13 @@ const ProjectPage = () => {
           routerLink={"/project/looks"}
         // target="_blank"
         />
-        {/* <ProjectItemData
+        <ProjectItemData
           imageUrl={image5}
           title={"Raahi"}
           description={"UI UX | Case Study"}
           routerLink={"/project/raahi"}
         // target="_blank"
-        /> */}
+        />
         <ProjectItemForVideo
           imageUrl={image6}
           title={"NID Portfolio"}
